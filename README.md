@@ -1,48 +1,74 @@
 # Exno.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
 ### DATE:                                                                            
-### REGISTER NUMBER : 
-### Aim: To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone. In this experiment, we will employ different prompt patterns to guide the development process of the chatbot, ranging from basic task-oriented prompts to more complex, persona-driven prompts.
+### REGISTER NUMBER : 212222060266
+### Aim: Scenario-Based Report Development Utilizing Diverse Prompting Techniques
+### Algorithm:  
+The goal of this experiment is to design and develop an AI-powered chatbot that can handle customer inquiries, provide support, and improve customer experience in a retail environment. Create prompts using various AI prompting techniques to guide your experiment, data collection, analysis, and report creation
 
-### Algorithm:  1. Direct Instruction Prompts
-Objective: Guide the chatbot to respond concisely to customer inquiries.
-Prompt Pattern:
-Prompt: "When a customer asks for the status of their order, reply with: 'Your order is currently being processed and will be delivered by [date].'"
-2. Contextual Prompting
-Objective: Incorporate specific context to provide detailed answers based on the user’s previous interaction.
-Prompt Pattern:
-Prompt: "If the customer previously mentioned that they haven’t received their order, say, 'I see that you mentioned your order hasn't arrived yet. Let me check the details for you and get back shortly.'"
-3. Persona-Based Prompting
-Objective: Design the chatbot to adopt a specific persona, making the interaction more engaging.
-Prompt Pattern:
-Prompt: "Pretend you are a friendly, helpful customer service representative. Use a conversational tone, such as 'Hey there! I’m here to help with any questions you might have. Let’s get your issue sorted!'"
-4. Few-Shot Prompting
-Objective: Teach the AI how to respond using a few examples, enabling it to generalize for similar situations.
-Prompt Pattern:
-Prompt: "Here are some examples of how to handle technical questions:
-'My phone isn't charging.' → 'Have you tried using a different cable? If that doesn’t work, it may be an issue with the port.'
-'The screen is flickering.' → 'It sounds like a display issue. Have you tried restarting the device?'
-Now, respond to: 'My app keeps crashing.'"
-5. Chain of Thought Prompting
-Objective: Use a step-by-step reasoning approach for resolving more complex or technical issues.
-Prompt Pattern:
-Prompt: "When a customer reports their laptop overheating, guide them through the following steps:
-Ask if they are using the laptop on a soft surface.
-Suggest moving the laptop to a flat, hard surface for better airflow.
-Ask if they’ve cleaned the vents recently.
-Recommend restarting the device to see if the issue persists.
-Now, solve: 'My laptop fan is making a loud noise.'"
-6. Instruction with Constraints
-Objective: Instruct the chatbot to provide assistance while adhering to specific constraints (e.g., response length or tone).
-Prompt Pattern:
-Prompt: "Respond to order inquiries in no more than 50 words and avoid using technical jargon. For example, 'Your order is on the way and should arrive by [date]. Feel free to reach out if you need anything else.'"
-7. Reflective Prompting
-Objective: Ensure that the chatbot reflects the user’s query back to them before providing a response, reducing misunderstandings.
-Prompt Pattern:
-Prompt: "When a customer asks for help, first reflect their question back to them. For example, if they ask 'How can I reset my password?' respond with 'You're asking how to reset your password, correct? Here’s how you can do it.'"
-Result: The various types of Prompts are executed successfully.
+### Select Prompting Techniques: 
+Choose a variety of prompting methods including:
+
+1. Zero-shot prompting
+
+2. Few-shot prompting
+
+3. Chain-of-thought prompting
+
+4. Role-based prompting
+
+5. Instructional prompting
+
+### Design Prompts: 
+Construct prompts for each technique to cover a range of customer service scenarios.
+
+### Simulate Interactions: 
+Execute prompts via an AI language model and simulate customer interactions.
+
+### Collect Data: 
+Record responses, analyze chatbot performance, and gather user sentiment data.
+
+### Analyze Results: 
+Compare the effectiveness of each technique based on accuracy, engagement, and customer satisfaction.
+
+### Document Findings: 
+Create a scenario-based report summarizing methodology, experiments, observations, and results.
+
+## Prompting Techniques and Examples
+### 1. Zero-shot Prompting
+Prompt Example:
+“You are a helpful customer service assistant. A user has asked, ‘What’s your return policy?’ Provide a clear and concise answer.”
+
+### 2. Few-shot Prompting
+Prompt Example:
+Q: “Do you offer free shipping?”
+A: “Yes, we offer free shipping for orders over $50.”
+Q: “How can I cancel my order?”
+A: “You can cancel your order from the account dashboard within 30 minutes of purchase.”
+Q: “Can I exchange an item without a receipt?”
+
+### 3. Chain-of-Thought Prompting
+Prompt Example:
+“A customer wants to return a product after 35 days, but the return policy allows only 30 days. First analyze the policy, then decide on a possible exception, and provide a diplomatic response.”
+
+### 4. Role-based Prompting
+Prompt Example:
+“You are a friendly and patient customer assistant helping an elderly customer navigate the online store. Guide them step-by-step on how to place an order.”
+
+### 5. Instructional Prompting
+Prompt Example:
+“List the steps a customer must follow to initiate a return request via the mobile app.”
+
+### Observation
+Zero-shot prompting performed well for direct questions but lacked nuance in special cases.
+
+Few-shot prompting handled contextual and policy-related queries more effectively.
+
+Chain-of-thought prompting was particularly effective for logical and policy-enforcement scenarios.
+
+Role-based prompting created a more empathetic and user-focused interaction experience.
+
+Instructional prompting ensured step-by-step clarity in process explanations.
 
 
-
-
-# Result: Thus the Prompts were exected succcessfully .
-
+### Result: 
+Thus the Prompts were exected succcessfully .

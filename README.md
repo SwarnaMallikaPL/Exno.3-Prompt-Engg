@@ -48,7 +48,7 @@ Q: “Can I exchange an item without a receipt?”
 
 ### 3. Chain-of-Thought Prompting
 Prompt Example:
-“A customer wants to return a product after 35 days, but the return policy allows only 30 days. First analyze the policy, then decide on a possible exception, and provide a diplomatic response.”
+“A customer wants to return a product after 35 days, but the return policy allows only 30 days. First analyze the policy, then decide on a possible exception, and provide a diplomatic response”
 
 ### 4. Role-based Prompting
 Prompt Example:
